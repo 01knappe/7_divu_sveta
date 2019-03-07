@@ -1,0 +1,56 @@
+header {
+    background-color: #666;
+} 
+
+
+h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.3em; 
+}
+
+#a {
+    padding-top: 3em;
+}
+
+#divy h4 {
+    background-color: #666;
+    color: white;
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+#divy h4:hover {
+    background-color: #484848;
+}
+
+#divy p {
+    display: none;
+}
+
+#nove-divy h4 {
+    background-color: #666;
+    color: white;
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+#nove-divy h4:hover {
+    background-color: #484848;
+}
+
+#nove-divy p {
+    display: none;
+}
+
+
+.seznam{
+    margin-bottom: 8em;
+
+}
