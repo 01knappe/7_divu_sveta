@@ -1,7 +1,9 @@
 header {
     background-color: #666;
-} 
-
+}
+hr {
+    border-bottom: 1px solid black;
+}
 
 h3 {
     font-size: 1.6em;
@@ -15,6 +17,12 @@ h3 {
 
 #a {
     padding-top: 3em;
+}
+#b {
+    padding-top: 2em;
+}
+#c {
+    padding-top: 2em;
 }
 
 #divy h4 {
@@ -50,7 +58,11 @@ h3 {
 }
 
 
-.seznam{
-    margin-bottom: 8em;
+#galerie-stare{
+    margin-bottom: 9em;
+
+}
+#galerie-nove{
+    margin-bottom: 9em;
 
 }
