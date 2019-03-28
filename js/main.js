@@ -1,8 +1,7 @@
 $(function(){
     var d = $('#divy');
     divy.forEach(function(obj,idx){
-        d.append('<h4>'+obj.name+'</h4><p>Datum: '+obj.date+'</p><p>Civilizace: '+obj.civilization+'</p><p>Zachované: '+obj.preserved+'</p><p>Zánik: '
-        +obj.death+'</p><p>'+obj.text+'</p>');
+        d.append('<h4>'+obj.name+'</h4><p>Datum: '+obj.date+'</p><p>Civilizace: '+obj.civilization+'</p><p>'+obj.text+'</p>');
     });
 
     $('#divy h4').click(function(){
@@ -24,7 +23,7 @@ $(function(){
 
     var n = $('#nove-divy');
     nove.forEach(function(obj,idx){
-        n.append('<h4>'+obj.name+'</h4><p>Datum: '+obj.date+'</p><p>Civilizace: '+obj.civilization+'</p><p>Stát: '+obj.state+'</p><p>'+obj.text+'</p>');
+        n.append('<h4>'+obj.name+'</h4><p>Datum: '+obj.date+'</p><p>Civilizace: '+obj.civilization+'</p><p>'+obj.text+'</p>');
     });
 
     $('#nove-divy h4').click(function(){
@@ -62,4 +61,21 @@ divy.forEach(function(obj,idx){
 var modalNove = $('#odkazyN ul');
 nove.forEach(function(obj,idx){
     modalNove.append('<li><a href="'+ obj.link +'">'+ obj.name +'</a></li>');
+
+    
+$("#Input1").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#stareTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+
+$("#Input2").on("keyup", function() {
+var value = $(this).val().toLowerCase();
+$("#noveTable tr").filter(function() {
+    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+});
+});
+
+
 });

@@ -112,7 +112,7 @@ nove = [
         "name":"Petra",
         "state":"Jordánsko",
         "date":"1. st. př. n. l. – 100 n. l.",
-        "civilization":"Nabatejci ",
+        "civilization":"Nabatejci",
         "photo":"n5.jpg",
         "link":"https://cs.wikipedia.org/wiki/Petra_(m%C4%9Bsto)",
         "text":"Petra je skalní město a archeologické naleziště v Jordánsku. Od roku 1985 je zařazena na Seznam světového dědictví UNESCO. V Bibli je označováno jako Selá a Arabové mu dali jméno Mojžíšovo údolí. Město původně vzniklo jako pohřebiště v dokonale krytém místě, kde se setkávají tři údolí. Město bylo založeno pravděpodobně mezi 3. století př.n.l. a 1. století n.l. V tuto dobu zde žili Nabatejci a Petra se stala hlavním městem jejich království. Všechny stavby byly vytesány do pískovce. Město dosáhlo největšího rozkvětu a významu kolem roku 62 př. n. l., kdy tu žilo kolem třiceti tisíc lidí. Petru opustili poslední obyvatelé po druhém ničivém zemětřesení v 6. století n. l. Údolí upadalo postupně v zapomnění. Stala se tajemstvím místních beduínů, kteří existenci skalního města pečlivě skrývali před světem. Prvním Evropanem, jenž spatřil Královskou hrobku v Petře, byl roku 1812 švýcarský badatel a cestovatel Johann Ludwig Burckhardt, který cestoval ze Sýrie do Egypta v přestrojení za Araba."
